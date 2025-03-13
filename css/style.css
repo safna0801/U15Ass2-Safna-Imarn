@@ -11,7 +11,7 @@ header {
   justify-content: space-between; /* Pushes content to opposite sides */
   align-items: center; /* Aligns items vertically */
   padding: 20px;
-  background-color: #f4f4f4; /* Ligth grey background */
+  background-color: #F0E7D8; /* Ligth grey background */
   border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
 }
 /* Logo Styling */
@@ -20,6 +20,15 @@ header {
 }
 /* Navigation Bar styling */
 nav{
-  background-color: #333; /* Dark background for contrast */
+  background-color: #8260A9; /* Dark background for contrast */
   padding: 10px;
+}
+nav a {
+  color: white; /* Sets text color */
+  text-decoration: none; /* Removes underline from links */
+  margin: 0 10px; /* Adds spacing between links */
+}
+/* Main Content Section Styling */
+.mainpage {
+  background-color: #F0E7D8;
 }
