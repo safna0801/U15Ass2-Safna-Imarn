@@ -1,7 +1,6 @@
-
 /* Reset default margin and padding for a consistent layout */
 body{
-  font-family: arial, sans-serif; /* Sets the default font style */
+  font-family: inter, light; /* Sets the default font style */
   margin: 0;
   padding: 0;
   text-align: center; /* Centers text globally */
@@ -13,7 +12,7 @@ header {
   align-items: center; /* Aligns items vertically */
   padding: 20px;
   background-color: #F0E7D8; /* Ligth grey background */
-  border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
+  border-bottom: 1px solid #ddd; /* Adds a subtle bottom border */
 }
 /* Logo Styling */
 .logo{
@@ -23,12 +22,12 @@ header {
 /* Navigation Bar styling */
 nav{
   background-color: #8260A9; /* Dark background for contrast */
-  padding: 10px;
+  padding: 15px;
 }
 nav a {
   color: white; /* Sets text color */
   text-decoration: none; /* Removes underline from links */
-  margin: 0 10px; /* Adds spacing between links */
+  margin: 0 15px; /* Adds spacing between links */
 }
 /* Main Content Section Styling */
 .mainpage {
@@ -49,5 +48,31 @@ nav a {
 }
 .content h2 {
   color: #333; /* dark gray color for heading */
-  font-size: 24px; /* adjust font size */
+  font-size: 30px; /* adjust font size */
+}
+.content p {
+  color: #666; /* medium dray for paragraph text */
+  font-size: 30px; /* adjust font size */
+  line-height: 1.5; /* improve readability */
+  max-width: 80%; /* limit text width for better readability */
+  margin: 0 auto; /* center text */
+}
+.section {
+  display: flex; /* enables side-by-side layout */
+  justify-content: space-around; /* spaces sections evenly */
+  padding: 20px; 
+}
+/* individual section styling */
+.section {
+  width: 90%; /* sets equal width for both sections */
+  padding: 20px; 
+  border: 2px solid #ddd; /* adds a subtle border */
+  background-color: #BCAA99
+}
+/* footer styling */
+footer{
+  background-color: #8260A9;
+  color: white;
+  padding: 10px;
+  position: relative;
 }
