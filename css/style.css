@@ -37,9 +37,7 @@ nav a {
   padding: 20px; /* Optional: adds spacing inside */
 }
 
-.mainpage p {
-  line-height: 1.5px;
-}
+
 
 .content {
   backgroung-color: #f9f9f9; /* light gray background */
@@ -67,6 +65,7 @@ nav a {
   display: flex; /* enables side-by-side layout */
   justify-content: space-around; /* spaces sections evenly */
   padding: 20px; 
+   line-height: 1.5px;
 }
 /* individual section styling */
 .section {
