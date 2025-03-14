@@ -1,9 +1,10 @@
 /* Reset default margin and padding for a consistent layout */
 body{
-  font-family: inter, light; /* Sets the default font style */
+  font-family: roboto, inter, nunito, figtee, arial; /* Sets the default font style */
   margin: 0;
   padding: 0;
   text-align: center; /* Centers text globally */
+  word-spacing: 1px; /* Adds 10px of space between words */
 }
 /* Header Styling */
 header {
@@ -34,6 +35,10 @@ nav a {
   background-color: #F0E7D8;
   color: black; /* Ensures text is visible */
   padding: 20px; /* Optional:adds spacing inside */
+  p {
+  line-height: 1.4;
+    
+
 }
 .content {
   backgroung-color: #f9f9f9; /* light gray background */
@@ -68,6 +73,24 @@ nav a {
   padding: 20px; 
   border: ; /* adds a subtle border */
   background-color: #BCAA99
+}
+ul {
+  list-style-type: disc; /* Default bullet style */
+  margin-left: 10px; /* Indentation for bullet points */
+}
+li {
+  margin-bottom: 15px; /* Space between each bullet point */
+}
+ ul {
+  list-style-position: outside; /* Keeps bullets outside the list items */
+  padding-left: 0; /* Removes the default left padding */
+  margin-left: 0; /* Removes the default margin on the left */
+}
+
+li {
+  padding-left: 0; /* Ensures no padding is applied to the list items */
+  margin-left: 0; /* Removes any margin from the list items */
+}
 }
 /* footer styling */
 footer{
