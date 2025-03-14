@@ -66,7 +66,7 @@ nav a {
 .section {
   width: 90%; /* sets equal width for both sections */
   padding: 20px; 
-  border: 2px solid #ddd; /* adds a subtle border */
+  border: ; /* adds a subtle border */
   background-color: #BCAA99
 }
 /* footer styling */
