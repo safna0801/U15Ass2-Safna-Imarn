@@ -34,12 +34,13 @@ nav a {
 .mainpage {
   background-color: #F0E7D8;
   color: black; /* Ensures text is visible */
-  padding: 20px; /* Optional:adds spacing inside */
-.mainpage  p {
-  line-height: 1000.4;
-    
-
+  padding: 20px; /* Optional: adds spacing inside */
 }
+
+.mainpage p {
+  line-height: 1000.4;
+}
+
 .content {
   backgroung-color: #f9f9f9; /* light gray background */
   padding: 20px; /* add space inside the main section */
