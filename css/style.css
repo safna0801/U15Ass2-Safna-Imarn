@@ -35,8 +35,8 @@ nav a {
   background-color: #F0E7D8;
   color: black; /* Ensures text is visible */
   padding: 20px; /* Optional:adds spacing inside */
-  p {
-  line-height: 1.4;
+.mainpage  p {
+  line-height: 1000.4;
     
 
 }
