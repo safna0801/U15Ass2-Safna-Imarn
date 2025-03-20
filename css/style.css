@@ -34,11 +34,12 @@ nav a {
 .mainpage {
   background-color: #F0E7D8;
   color: black; /* Ensures text is visible */
-  padding: 20px; /* Optional: adds spacing inside */
+  padding: 20px; /* Optional:adds spacing inside */
+  p {
+  line-height: 1.4;
+    
+
 }
-
-
-
 .content {
   backgroung-color: #f9f9f9; /* light gray background */
   padding: 20px; /* add space inside the main section */
@@ -65,7 +66,6 @@ nav a {
   display: flex; /* enables side-by-side layout */
   justify-content: space-around; /* spaces sections evenly */
   padding: 20px; 
-   line-height: 1.5px;
 }
 /* individual section styling */
 .section {
