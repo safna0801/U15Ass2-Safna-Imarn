@@ -91,6 +91,34 @@ li {
   padding-left: 0; /* Ensures no padding is applied to the list items */
   margin-left: 0; /* Removes any margin from the list items */
 }
+  .partners-header {
+            text-align: center;
+            margin-top: 40px;
+            color: #black;
+        }
+        .partners-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .partner-card {
+            width: 45%;
+            text-align: center;
+            margin: 15px;
+            padding: 20px;
+            background-color: #BCAA99;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .partner-card h4 {
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        .partner-card img {
+            width: 140px;
+            height: auto;
+            margin-bottom: 10px;
+        }
 }
 /* footer styling */
 footer{
