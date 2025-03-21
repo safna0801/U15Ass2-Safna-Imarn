@@ -233,7 +233,77 @@ li {
 
   .support-us .cta-btn {
     padding: 10px 20px;
-  }/* footer styling */
+  }
+  /* General section styles */
+.our-approach {
+  background-color:  #8260A9 ; /* Light background for readability */
+  padding: 40px 20px; /* Adds padding around the section */
+  text-align: left; /* Aligns text to the left */
+  font-family: 'Arial', sans-serif; /* Font for clean look */
+}
+
+.our-approach .container {
+  max-width: 1200px; /* Ensures content is not too wide */
+  margin: 0 auto; /* Centers the content */
+}
+
+h2 {
+  font-size: 36px; /* Large title size */
+  color: white; /* Dark color for title */
+  margin-bottom: 20px;
+  text-align: center; /* Centers the title */
+}
+
+h3 {
+  font-size: 28px; /* Medium-sized headings */
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px; /* Makes paragraphs readable */
+  color: white; /* Slightly lighter color for text */
+  line-height: 1.6; /* Better line spacing for readability */
+}
+
+ul.teaching-methods {
+  list-style-type: none; /* Removes default list styling */
+  padding-left: 0; /* Removes padding */
+}
+
+ul.teaching-methods li {
+  background:  #8260A9; /* White background for list items */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds slight shadow to list items */
+}
+
+ul.teaching-methods li strong {
+  color: white; /* Makes the method names bold and dark */
+  font-size: 18px; /* Slightly larger text for method names */
+}
+
+ul.teaching-methods li p {
+  font-size: 15px; /* Makes the description text slightly smaller */
+  color: white; /* Slightly lighter color for the description */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px; /* Reduces title size on smaller screens */
+  }
+
+  h3 {
+    font-size: 22px; /* Reduces subheading size on smaller screens */
+  }
+
+  p, ul.teaching-methods li {
+    font-size: 14px; /* Makes text smaller on mobile */
+  }
+  /* footer styling */ 
 footer{
   background-color: #8260A9;
   color: white;
