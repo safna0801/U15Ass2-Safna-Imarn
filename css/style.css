@@ -255,14 +255,14 @@ h2 {
 }
 
 h3 {
-  font-size: 28px; /* Medium-sized headings */
+  font-size: 30px; /* Medium-sized headings */
   color: white;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
 p {
-  font-size: 16px; /* Makes paragraphs readable */
+  font-size: 18px; /* Makes paragraphs readable */
   color: white; /* Slightly lighter color for text */
   line-height: 1.6; /* Better line spacing for readability */
 }
@@ -282,11 +282,11 @@ ul.teaching-methods li {
 
 ul.teaching-methods li strong {
   color: white; /* Makes the method names bold and dark */
-  font-size: 18px; /* Slightly larger text for method names */
+  font-size: 22px; /* Slightly larger text for method names */
 }
 
 ul.teaching-methods li p {
-  font-size: 15px; /* Makes the description text slightly smaller */
+  font-size: 19px; /* Makes the description text slightly smaller */
   color: white; /* Slightly lighter color for the description */
 }
 
