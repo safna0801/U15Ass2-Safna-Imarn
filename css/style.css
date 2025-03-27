@@ -370,6 +370,7 @@ h2, h3 {
 
 /* Registration Form Section */
 .registration-form {
+  border-style: solid;
     background-color: #F0E7D8 ;
     padding: 20px;
     margin-bottom: 30px;
