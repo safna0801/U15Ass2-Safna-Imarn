@@ -352,6 +352,93 @@ h2, h3 {
 .payment-details p {
     margin-bottom: 10px;
 }
+  .games {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+ 
+        h1 {
+            text-align: center;
+            color: ;
+        }
+ 
+        h2 {
+            color:;
+            margin-top: 20px;
+        }
+ 
+        .section {
+            margin-bottom: 30px;
+        }
+ 
+        .list-items {
+            margin-left: 20px;
+        }
+ 
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+ 
+        .cta a {
+            text-decoration: none;
+            background-color: white;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+ 
+        .cta a:hover {
+            background-color: ;
+        }
+ 
+        .wordwall-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+ 
+        .wordwall-link a {
+            text-decoration: none;
+            background-color: #8260A9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+ 
+        .wordwall-link a:hover {
+            background-color: #BCAA99;
+        }
+ 
+        .games-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+ 
+        .games-list li {
+            margin: 10px;
+            display: inline-block;
+        }
+ 
+        .games-list a {
+            background-color:  #BCAA99;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: black;
+            font-size: 18px;
+            text-decoration: none;
+        }
+ 
+        .games-list a:hover {
+            background-color: #BCAA99;
+        }
+</style>
   /* footer styling */ 
 footer{
   background-color: #8260A9;
