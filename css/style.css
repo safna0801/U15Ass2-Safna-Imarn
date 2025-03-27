@@ -180,14 +180,7 @@ li {
   padding: 20px; /* Optional:adds spacing inside */
 line-height: 1.4;
 }
-/* Global styles */
-body {
-    font-family:roboto, inter, nunito, figtee, arial ;
-    background-color: #F0E7D8 ;
-    color: black;
-    margin: 0;
-    padding: 0;
-}
+
  
 /* Header styles */
  header {
@@ -203,13 +196,13 @@ section {
     padding: 20px;
 }
  
-h1, h2 {
+.dates&fees h1, h2 {
     color: black ;
   font-size:28px;
 }
  
 /* Content area */
-.content {
+ .content {
     margin: 20px;
 }
  
@@ -221,16 +214,17 @@ h1, h2 {
   font-size: 20px;
 }
  
-table, th, td {
+.dates&fees 
+  table, th, td {
     border: 1px solid  #8260A9;
 }
  
-th, td {
+.dates&fees th, td {
     padding: 8px;
     text-align: center;
 }
  
-th {
+.dates&fees th {
     background-color:  #8260A9;
     color: black;
   font-size:20px;
@@ -243,11 +237,11 @@ th {
   font-size: 14px;
 }
  
-ul li {
+.dates&fees ul li {
     padding: 5px 0;
   font-size:20px;
 }
-h2,h4,ul,h5 {
+.dates&fees h2,h4,ul,h5 {
     border: 2px solid #8260A9 ;  /* Green border */
     padding: 15px;
     margin: 15px 0;  /* Space between paragraphs */
@@ -266,10 +260,3 @@ footer{
   font-size: 20px;
 }
 
-/* Footer Styling */
-footer {
-  background-color: #8260A9;
-  color: white;
-  padding: 10px;
-  position: relative;
-}
