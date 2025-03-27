@@ -294,6 +294,57 @@ li {
 #news-leadership li {
     margin: 10px 0;
 }
+/* Main Content Section */
+.resgistration-form main {
+    margin: 30px;
+}
+ 
+/* Section Headers */
+.resgistration-form h2, h3 {
+    color: #8260A9;
+    margin-bottom: 20px;
+}
+ 
+/* Registration Form Section */
+.registration-form {
+    background-color:#F0E7D8 ;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+.registration-form ul,
+.registration-form ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+ 
+.registration-form a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+ 
+.registration-form a:hover {
+    text-decoration: underline;
+}
+ 
+/* Payment Details Section */
+.payment-details {
+    background-color: #F0E7D8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+.payment-details ul {
+    margin-left: 20px;
+}
+ 
+.payment-details p {
+    margin-bottom: 10px;
+}
+ 
 /* Footer Styling */
 footer {
   background-color: #8260A9;
