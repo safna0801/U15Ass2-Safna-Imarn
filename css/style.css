@@ -312,7 +312,62 @@ h2, h3 {
     color: #8260A9;
     margin-bottom: 20px;
 }
- 
+ #events-projects {
+    background-color:  #F0E7D8;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+#events-projects p {
+    line-height: 1.6;
+}
+
+/* Upcoming Events Section */
+#upcoming-events {
+    margin-top: 40px;
+}
+
+.event {
+    background-color: #BCAA99;
+    border: 1px solid #8260A9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.event h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.event p {
+    font-size: 1.1em;
+}
+
+/* Past Events Section */
+#past-events .event {
+    background-color:#8260A9 ;
+    border: 1px solid #ccc;
+}
+
+/* News & Leadership Section */
+#news-leadership {
+    background-color: #F0E7D8;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+#news-leadership ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#news-leadership li {
+    margin: 10px 0;
+}
+
 /* Registration Form Section */
 .registration-form {
     background-color:#F0E7D8 ;
