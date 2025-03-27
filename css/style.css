@@ -174,23 +174,6 @@ li {
   background-color: #8260A9;
 }
 
-@media (max-width: 768px) {
-  .support-us .container {
-    padding: 20px;
-  }
-
-  .support-us h2 {
-    font-size: 2.2em;
-  }
-
-  .support-us h3 {
-    font-size: 1.5em;
-  }
-
-  .support-us .cta-btn {
-    padding: 10px 20px;
-  }
-}
 
 /* Footer Styling */
 footer {
