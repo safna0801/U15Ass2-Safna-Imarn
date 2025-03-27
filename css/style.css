@@ -173,7 +173,129 @@ li {
 .support-us .cta-btn:hover {
   background-color: #8260A9;
 }
-
+/* Reset default margin and padding for a consistent layout */
+body{
+  font-family: roboto, inter, nunito, figtee, arial; /* Sets the default font style */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centers text globally */
+  word-spacing: 1px; /* Adds 10px of space between words */
+}
+/* Header Styling */
+header {
+  display: flex; /* Uses flexbox for layout */
+  justify-content: space-between; /* Pushes content to opposite sides */
+  align-items: center; /* Aligns items vertically */
+  padding: 20px;
+  background-color: #F0E7D8; /* Ligth grey background */
+  border-bottom: 1px solid #ddd; /* Adds a subtle bottom border */
+}
+/* Logo Styling */
+.logo{
+  max-width: 100px; /* Restricts logo size */
+}
+/* Navigation Bar styling */
+nav{
+  background-color: #8260A9; /* Dark background for contrast */
+  padding: 15px;
+}
+nav a {
+  color: white; /* Sets text color */
+  text-decoration: none; /* Removes underline from links */
+  margin: 0 15px; /* Adds spacing between links */
+}
+/* Main Content Section Styling */
+.dates&fees {
+  background-color: ;
+  color: black; /* Ensures text is visible */
+  padding: 20px; /* Optional:adds spacing inside */
+line-height: 1.4;
+}
+/* Global styles */
+body {
+    font-family:roboto, inter, nunito, figtee, arial ;
+    background-color: #F0E7D8 ;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Header styles */
+ header {
+    background-color:#F0E7D8;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  font-size: 40px;
+}
+ 
+/* Section styles */
+section {
+    padding: 20px;
+}
+ 
+h1, h2 {
+    color: black ;
+  font-size:28px;
+}
+ 
+/* Content area */
+.content {
+    margin: 20px;
+}
+ 
+/* Table styling */
+.dates&fees table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  font-size: 20px;
+}
+ 
+table, th, td {
+    border: 1px solid  #8260A9;
+}
+ 
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+ 
+th {
+    background-color:  #8260A9;
+    color: black;
+  font-size:20px;
+}
+ 
+/* Lists */
+.dates&fees ul {
+    list-style-type: none;
+    padding-left: 0;
+  font-size: 14px;
+}
+ 
+ul li {
+    padding: 5px 0;
+  font-size:20px;
+}
+h2,h4,ul,h5 {
+    border: 2px solid #8260A9 ;  /* Green border */
+    padding: 15px;
+    margin: 15px 0;  /* Space between paragraphs */
+    border-radius: 8px;  /* Optional: for rounded corners */
+    background-color:#BCAA99 ;  /* Optional: for background color inside the border */
+  font-size: 20px;
+}
+ 
+ 
+/* footer styling */
+footer{
+  background-color: #8260A9;
+  color: white;
+  padding: 10px;
+  position: relative;
+  font-size: 20px;
+}
 
 /* Footer Styling */
 footer {
