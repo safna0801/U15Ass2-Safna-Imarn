@@ -55,7 +55,6 @@ nav a:hover {
   border-radius: 10px;
   text-align: center;
   width: 100%;
-  max-width: 100%;
   margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 2px solid #2c3e50;
@@ -81,7 +80,7 @@ nav a:hover {
   padding: 20px;
   width: 90%;
   background-color: #BCAA99;
-  flex-wrap: wrap; /* Allows wrapping of content on smaller screens */
+  flex-wrap: wrap;
 }
 
 ul {
@@ -140,7 +139,6 @@ li {
   margin: 0 auto;
   background-color: #BCAA99;
   padding: 30px;
- 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -173,7 +171,6 @@ li {
   color: black;
   text-decoration: none;
   font-weight: bold;
- 
   text-align: center;
   transition: background-color 0.3s ease;
 }
@@ -198,7 +195,6 @@ li {
 
 .dates-and-fees table {
   width: 100%;
- 
   margin-top: 20px;
   font-size: 20px;
 }
@@ -230,121 +226,108 @@ li {
 }
 
 .dates-and-fees h2, h4, ul, h5 {
- 
   padding: 15px;
   margin: 15px 0;
   border-radius: 8px;
   background-color: #BCAA99;
   font-size: 20px;
 }
+
+/* Events Section */
 #events-projects {
-    background-color: #BCAA99 ;
-    border-radius: 8px;
-    padding: 30px;
-    margin-top: 30px;
+  background-color: #BCAA99;
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 30px;
 }
- 
+
 #events-projects p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
- 
-/* Upcoming Events Section */
+
 #upcoming-events {
-    margin-top: 40px;
+  margin-top: 40px;
 }
- 
+
 .event {
-    background-color: #F0E7D8;
-    border: 1px solid #8260A9;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
+  background-color: #F0E7D8;
+  border: 1px solid #8260A9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
- 
+
 .event h4 {
-    color: black;
-    margin-bottom: 10px;
-  
+  color: black;
+  margin-bottom: 10px;
 }
- 
+
 .event p {
-    font-size: 1.1em;
-  
+  font-size: 1.1em;
 }
- 
-/* Past Events Section */
+
 #past-events .event {
-    background-color: #BCAA99;
-    border: 1px solid #ccc;
+  background-color: #BCAA99;
+  border: 1px solid #ccc;
 }
- 
+
 /* News & Leadership Section */
 #news-leadership {
-    background-color: #BCAA99;
-    border-radius: 8px;
-    padding: 30px;
-    margin-top: 40px;
+  background-color: #BCAA99;
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 40px;
 }
- 
+
 #news-leadership ul {
-    list-style-type: square;
-    padding-left: 20px;
+  list-style-type: square;
+  padding-left: 20px;
 }
- 
+
 #news-leadership li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
-/* Main Content Section */
-.resgistration-form main {
-    margin: 30px;
-}
- 
-/* Section Headers */
-.resgistration-form h2, h3 {
-    color: #8260A9;
-    margin-bottom: 20px;
-}
- 
+
 /* Registration Form Section */
 .registration-form {
-    background-color:#F0E7D8 ;
-    padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #F0E7D8;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
- 
+
 .registration-form ul,
 .registration-form ol {
-    margin-left: 20px;
-    margin-bottom: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
- 
+
 .registration-form a {
-    color: #4CAF50;
-    text-decoration: none;
+  color: #4CAF50;
+  text-decoration: none;
 }
- 
+
 .registration-form a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
- 
+
 /* Payment Details Section */
 .payment-details {
-    background-color: #F0E7D8;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #F0E7D8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
- 
+
 .payment-details ul {
-    margin-left: 20px;
+  margin-left: 20px;
 }
- 
+
 .payment-details p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
- 
+
 /* Footer Styling */
 footer {
   background-color: #8260A9;
@@ -376,5 +359,9 @@ footer {
 
   .content p {
     font-size: 18px;
+  }
+
+  .registration-form {
+    margin: 10px;
   }
 }
