@@ -183,27 +183,27 @@ li {
 }
 
 /* Dates & Fees Section */
-.dates-and-fees {
+.dates&fees {
   background-color: #F0E7D8;
   color: black;
   padding: 20px;
   line-height: 1.4;
 }
 
-.dates-and-fees h1, h2 {
+.dates&fees h1, h2 {
   color: black;
   font-size: 28px;
   margin-bottom: 15px;
 }
 
-.dates-and-fees table {
+.dates&fees table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
   font-size: 20px;
 }
 
-.dates-and-fees table, th, td {
+.dates&fees table, th, td {
   border: 1px solid #8260A9;
 }
 
@@ -212,24 +212,24 @@ li {
   text-align: center;
 }
 
-.dates-and-fees th {
+.dates&fees th {
   background-color: #8260A9;
   color: white;
   font-size: 20px;
 }
 
-.dates-and-fees ul {
+.dates&fees ul {
   list-style-type: none;
   padding-left: 0;
   font-size: 16px;
 }
 
-.dates-and-fees ul li {
+.dates&fees ul li {
   padding: 5px 0;
   font-size: 20px;
 }
 
-.dates-and-fees h2, h4, ul, h5 {
+.dates&fees h2, h4, ul, h5 {
   border: 2px solid #8260A9;
   padding: 15px;
   margin: 15px 0;
