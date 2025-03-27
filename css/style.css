@@ -238,7 +238,7 @@ li {
   font-size: 20px;
 }
 #events-projects {
-    background-color:  #F0E7D8;
+    background-color: #BCAA99 ;
     border-radius: 8px;
     padding: 30px;
     margin-top: 30px;
@@ -254,7 +254,7 @@ li {
 }
  
 .event {
-    background-color: #BCAA99;
+    background-color: #F0E7D8;
     border: 1px solid #8260A9;
     border-radius: 8px;
     padding: 20px;
@@ -262,23 +262,25 @@ li {
 }
  
 .event h4 {
-    color: white;
+    color: black;
     margin-bottom: 10px;
+  
 }
  
 .event p {
     font-size: 1.1em;
+  
 }
  
 /* Past Events Section */
 #past-events .event {
-    background-color:#8260A9 ;
+    background-color: #BCAA99;
     border: 1px solid #ccc;
 }
  
 /* News & Leadership Section */
 #news-leadership {
-    background-color: #F0E7D8;
+    background-color: #BCAA99;
     border-radius: 8px;
     padding: 30px;
     margin-top: 40px;
