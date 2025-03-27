@@ -39,4 +39,163 @@ nav a {
 .mainpage {
   background-color: #F0E7D8;
   color: black;
-  padding:
+  padding: 20px;
+}
+
+.content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #2c3e50;
+}
+
+.content h2 {
+  color: #333;
+  font-size: 30px;
+}
+
+.content p {
+  color: #666;
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* Section Styling */
+.section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 90%;
+  background-color: #BCAA99;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 10px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+/* Partners Section */
+.partners-header {
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+.partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partner-card {
+  width: 45%;
+  text-align: center;
+  margin: 15px;
+  padding: 20px;
+  background-color: #BCAA99;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.partner-card h4 {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+.partner-card img {
+  width: 140px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Support Us Section */
+.support-us {
+  background-color: #F0E7D8;
+  padding: 60px 20px;
+  color: white;
+  line-height: 1.7;
+}
+
+.support-us .container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #BCAA99;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.support-us h2 {
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.support-us h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.support-us h5 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #8260A9;
+  margin-top: 15px;
+}
+
+.support-us .cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #BCAA99;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.support-us .cta-btn:hover {
+  background-color: #8260A9;
+}
+
+@media (max-width: 768px) {
+  .support-us .container {
+    padding: 20px;
+  }
+
+  .support-us h2 {
+    font-size: 2.2em;
+  }
+
+  .support-us h3 {
+    font-size: 1.5em;
+  }
+
+  .support-us .cta-btn {
+    padding: 10px 20px;
+  }
+}
+
+/* Footer Styling */
+footer {
+  background-color: #8260A9;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
